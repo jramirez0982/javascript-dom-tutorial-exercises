@@ -4,7 +4,7 @@ let countries = ["USA", "France", "Italy", "Brazil", "Colombia", "Belize", "Vene
 let selectElement = document.getElementById("mySelect");
 
 for (let i = 0; i < countries.length; i++) {
-  let option = document.createElement("option");
+  let option = document.createElement(option);
   option.value = countries[i];
   option.innerHTML = countries[i];
   selectElement.appendChild(option);
